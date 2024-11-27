@@ -53,6 +53,11 @@ header {
   
     a {
       color: var(--app-white);
+      transition: 0.5s ease;
+    }
+
+    a:hover {
+      color: var(--app-orange);
     }
   }
 }
@@ -262,6 +267,11 @@ footer {
     padding: 20px 0;
     color: var(--app-white);
     margin: 10px 0;
+    transition: 0.5s ease-in;
+  }
+
+  a:hover {
+    background-color: var(--app-orange);
   }
 }
 
