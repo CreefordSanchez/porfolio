@@ -30,11 +30,12 @@ li, a {
   width: min(100% - 20px, 1100px);
   margin-inline: auto;
 }
-/* Header */
 
+/* Header */
 header {
   position: fixed;
   top: 0;
+  z-index: 1;
   background-color: var(--app-gray);
   width: 100%;
   box-shadow: 0 0 10px 0 #000000;
@@ -63,4 +64,56 @@ header {
 
 .menu {
   display: none;
+}
+
+/* Hero Banner */
+.hero-banner {
+  padding-top: 62px;
+  background-color: #1c1d20d7;
+  position: relative;
+  color: var(--app-white);
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.hero-headline {
+  
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+
+.me-picture {
+  padding: 20px;
+  background-color: #ffffff04;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
+  }
 }
