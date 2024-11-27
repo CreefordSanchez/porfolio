@@ -9,3 +9,58 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+:root {
+  --app-gray: #1c1d20;
+  --app-white: #fff;
+  --app-padding-top: 24px;
+  --app-orange: #ffa500;
+  --app-light-gray: #818190;
+}
+
+ul {
+  list-style: none;
+}
+
+li, a {
+  text-decoration: none;
+}
+
+.container {
+  width: min(100% - 20px, 1100px);
+  margin-inline: auto;
+}
+/* Header */
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: var(--app-gray);
+  width: 100%;
+  box-shadow: 0 0 10px 0 #000000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  color: var(--app-white);
+  
+  ul {
+    display: flex;
+    gap: 20px;
+  
+    a {
+      color: var(--app-white);
+    }
+  }
+}
+
+.copyright {
+  display: flex;
+  gap: 200px;
+}
+
+.menu {
+  display: none;
+}
