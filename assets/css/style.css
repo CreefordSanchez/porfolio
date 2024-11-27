@@ -119,8 +119,11 @@ header {
 }
 
 /* About Me */
+main {
+  padding: 54px 0;
+}
+
 .about-me {
-  padding-top: 54px;
 
   h2 {
     font-size: 40px;
@@ -223,6 +226,62 @@ header {
 .git-btn {
   color: var(--app-white);
   background-color: var(--app-gray);
+}
+
+/* footer */
+footer {
+  padding: 45px 0 5px;
+  padding-bottom: 5px;
+  background-color: var(--app-gray);
+
+  span {
+    display: block;
+  }
+
+  .container > h3 {
+    font-size: 45px;
+    color: var(--app-white);
+    font-weight: 100;
+  }
+
+  .circle-link {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+  }
+}
+
+.social-link {
+  margin: 54px 0 54px;
+
+  a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--app-light-gray);
+    border-radius: 50px;
+    padding: 20px 0;
+    color: var(--app-white);
+    margin: 10px 0;
+  }
+}
+
+footer .media-links {
+  h3 {
+    font-size: 14px;
+    color: var(--app-light-gray);
+  }
+
+  a {
+    color: var(--app-white);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  ul {
+    display: flex;
+    gap: 10px;
+  }
 }
 
 /* Media Query */
