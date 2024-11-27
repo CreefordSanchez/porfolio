@@ -26,6 +26,10 @@ li, a {
   text-decoration: none;
 }
 
+p, h1, h2, h3 {
+  cursor: default;
+}
+
 .container {
   width: min(100% - 20px, 1100px);
   margin-inline: auto;
@@ -153,7 +157,6 @@ main {
     font-size: 40px;
   }
 }
-
 
 /* Projects */
 .project {
@@ -292,6 +295,12 @@ footer .media-links {
   ul {
     display: flex;
     gap: 10px;
+  }
+
+  .line {
+    background-color: var(--app-white);
+    height: 2px;
+    margin: 5px 0 10px;
   }
 }
 
