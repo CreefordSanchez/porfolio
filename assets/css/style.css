@@ -152,15 +152,16 @@ main {
   h2 {
     font-size: 40px;
   }
-  /*span {
-    display: block;
-  }*/
 }
 
 
 /* Projects */
 .project {
   margin-top: 95px;
+}
+
+.project-content {
+  margin-bottom: 70px;
 }
 
 .project > h3 {
