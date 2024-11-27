@@ -117,3 +117,34 @@ header {
     width: 100%;
   }
 }
+
+/* About Me */
+.about-me {
+  padding-top: 54px;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--app-gray);
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #323232;
+  }
+  .circle-link {
+    display: none;
+  }
+}
+
+.about-me-headline {
+  padding-top: 24px;
+
+  h2 {
+    font-size: 40px;
+  }
+  /*span {
+    display: block;
+  }*/
+}
