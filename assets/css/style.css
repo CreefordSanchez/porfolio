@@ -333,13 +333,19 @@ footer .media-links {
 @media screen and (max-width:913px) {
   .hero-headline > h1 { font-size: 45px; }
   .hero-headline > p { font-size: 16px; }
-  .skill-list { font-size: 18px; }
+  .skill-list { 
+    font-size: 18px; 
+    
+    img { width: 18px; }
+  }
 
   .about-me > h2 { font-size: 27px; }
   .about-me-headline > p { font-size: 16px; }
 
   .project-title > h3 { font-size: 27px; }
   .project-headline > p { font-size: 16px; }
+
+  footer .container > h3 { font-size: 40px; }
 }
 
 @media screen and (max-width:754px) {
@@ -349,5 +355,61 @@ footer .media-links {
 
   .hero-headline > h1 { font-size: 50px; }
   .hero-headline > p { font-size: 20px; }
-  .skill-list { font-size: 25px; }
+
+  .skill-list { 
+    font-size: 25px;
+  
+    img { width: 25px; }
+  }
+}
+
+@media screen and (max-width: 555px) {
+  nav {
+    display: none;
+  }
+
+  .menu {
+    display: inline;
+  }
+
+  .hero-headline > h1 { font-size: 45px; }
+  .hero-headline > p { font-size: 16px; }
+  .skill-list { 
+    font-size: 18px; 
+    
+    img { width: 18px; }
+  }  
+}
+
+@media screen and (max-width: 482px) {
+  .hero-headline > h1 { font-size: 37px; }
+  .hero-headline > p { font-size: 14px; }
+
+  .skill-list { 
+    font-size: 17px; 
+    
+    img { width: 18px; }
+  }  
+
+  .about-me > h2 { font-size: 24px; }
+  .about-me-headline > p { font-size: 14px; }
+
+  .project-title > h3 { font-size: 24px; }
+  .project-headline > p { font-size: 14px; }
+
+  .project-link a {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  footer .container > h3 { 
+    font-size: 30px; 
+    font-weight: 600;
+  }
+
+  .media-links a {
+    font-size: 14px;
+  }
 }
