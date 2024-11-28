@@ -178,6 +178,10 @@ header {
   
   h1 {
     font-size: 60px;
+
+    span:nth-child(1) { 
+      color: var(--app-orange); 
+    }
   }
 
   p {
@@ -185,7 +189,7 @@ header {
     font-size: 20px;
   }
 
-  span {
+  .block {
     display: block;
   }
 }
