@@ -79,6 +79,7 @@ header {
 }
 
 .menu-tab {
+  display: none;
   padding-top: 67px;
   position: fixed;
   top: 0;
@@ -95,12 +96,21 @@ header {
     color: var(--app-white);
     font-size: 60px;
     font-weight: 700;
+    transition: 0.5s ease;
   }
 }
 
 .menu-links {
   height: 100%;
   display: grid;
+
+  ul {
+    align-self: center;
+
+    a:hover {
+      color: var(--app-orange);
+    }
+  }
 }
 
 .media-links {
@@ -129,6 +139,15 @@ header {
     height: 2px;
     margin: 5px 0 10px;
   }
+}
+
+.menu-display {
+  display: inline;
+  opacity: 1;
+}
+
+.menu-btn-toogle {
+  color: var(--app-orange);
 }
 
 /* Hero Banner */
