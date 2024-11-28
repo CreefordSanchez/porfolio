@@ -105,6 +105,20 @@ header {
   }
 }
 
+.skill-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+
+  img {
+    width: 25px;
+  }
+}
+
+.fa-html5 { color: #ff4500; }
+.fa-css3-alt { color: cyan; }
+.fa-js { color: var(--app-orange) }
 
 .me-picture {
   padding: 20px;
