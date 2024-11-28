@@ -342,3 +342,12 @@ footer .media-links {
   .project-headline > p { font-size: 16px; }
 }
 
+@media screen and (max-width:754px) {
+  .me-picture {
+    display: none;
+  }
+
+  .hero-headline > h1 { font-size: 50px; }
+  .hero-headline > p { font-size: 20px; }
+  .skill-list { font-size: 25px; }
+}
